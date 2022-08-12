@@ -1,10 +1,12 @@
-import './assets/styles/custom.scss';
-import './App.css';
+import Routes from "Routes";
 
-function App() {
+import "./assets/styles/custom.scss";
+import "./App.css";
+
+const App = () => {
   return (
-    <h1>Github API</h1>
+    <Routes />
   );
-}
+};
 
 export default App;
