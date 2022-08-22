@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
 }
 
 .search-container {
@@ -12,30 +11,74 @@
   padding: 54px 90px;
   background: #e6f7ff;
   border-radius: 16px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.form-content-container {
+  margin-bottom: 12px;
+  width: 80%;
 }
 
-.form-container h4 {
-    font-size: 38px;
+.form-content-container h5 {
+  font-size: 38px;
+  font-weight: 500;
 }
+
 
 .search-input {
-    background-color: #fff;
-    border: 1px solid #D9D9D9;
-    border-radius: 4px;
-    font-size: 16px;
-    text-align: center;
-    height: 40px;
-    width: 300px;
-    margin-bottom: 25px;
+  background-color: #fff;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  height: 40px;
+  width: 300px;
+}
+
+.search-input::placeholder {
+  color: #d3cccc;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f5f5f5;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.result-card {
+  padding: 5px;
+}
+
+.img-container {
+  text-align: center;
+  width: 50%;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.description-container {
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.description-container h5 {
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1890ff;
+}
+
+@media (min-width: 576px) {
+  .form-content-container h5 {
+    width: 500px;
   }
-  
-  .search-input::placeholder {
-    color: #d3cccc;
-  }
-  
+}

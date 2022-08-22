@@ -1,0 +1,32 @@
+.result-card-container {
+  background-color: #fff;
+  height: 40px;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border: 1px solid #d9d9d9;
+}
+
+.result-title {
+  color: #737373;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.result-description {
+  color: #737373;
+  font-size: 16px;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .result-card-container {
+    width: 450px;
+  }  
+}
